@@ -5,7 +5,6 @@ click=st.button("dale click")
 st.write("el valor de click es:", click)
 
 if click==True:
-   st.write("perrito")
     st.image("R.jpg")
     
 
