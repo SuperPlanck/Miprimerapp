@@ -12,6 +12,10 @@ num2 = st.slider('Elige el numero 2',0.0,100.0,25.0)
 suma = num1+num2
 st.write("la suma de los dos es:", suma)
 
+st.write("ahora multipliquemos")
+nn1 = st.number_input("dame n1")
+nn2 0 st.number_input("dame n2")
+mult = nn1*nn2st.write("la multiplicacion da", mult)
 #Las st.button pusieron botones
 #st.button("dale click")
 #st.button("Otro boton")
