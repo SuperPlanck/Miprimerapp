@@ -12,3 +12,5 @@ st.title("miprimerapp")
 #st.map(df)
 
 st.write("Hola Mundo")
+st.text("La siguiente es una integral")
+st.latex("\int_1^6")
