@@ -14,7 +14,7 @@ st.write("la suma de los dos es:", suma)
 
 st.write("ahora multipliquemos")
 nn1 = st.number_input("dame n1")
-nn2 0 st.number_input("dame n2")
+nn2 = st.number_input("dame n2")
 mult = nn1*nn2
 st.write("la multiplicacion da",mult)
 #Las st.button pusieron botones
