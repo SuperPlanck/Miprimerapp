@@ -1,8 +1,14 @@
 import streamlit as st
 import pandas as pd
 st.title("miprimerapp")
+
+#Las st.button pusieron botones
 #st.button("dale click")
 #st.button("Otro boton")
-df = pd.read_csv('https://raw.githubusercontent.com/quantum-apps/mapa/main/data.csv')
-st.write(df)
-st.map(df)
+
+#Este agrego un mapa de la biblioteca de panda
+#df = pd.read_csv('https://raw.githubusercontent.com/quantum-apps/mapa/main/data.csv')
+#st.write(df)
+#st.map(df)
+
+st.write("Hola Mundo")
