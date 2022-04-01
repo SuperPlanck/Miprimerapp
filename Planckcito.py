@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 st.title("miprimerapp")
+click=st.button("dale click")
+st.write("el valor de click es:", click)
 
 #Las st.button pusieron botones
 #st.button("dale click")
@@ -11,8 +13,13 @@ st.title("miprimerapp")
 #st.write(df)
 #st.map(df)
 
-st.write("Hola Mundo")
-st.text("La siguiente es una integral")
-st.latex("\int_1^6 sin(x)dx")
-st.markdown(" #titulo ")
-st.markdown("*esta es una viñeta*")
+#para escribir
+#st.write("Hola Mundo")
+#st.text("La siguiente es una integral")
+
+#Para insertar formulas
+#st.latex("\int_1^6 sin(x)dx")
+
+#para poner titulos bonitos
+#st.markdown(" #titulo ")
+#st.markdown("*esta es una viñeta*")
