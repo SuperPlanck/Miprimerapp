@@ -5,8 +5,9 @@ click=st.button("dale click")
 st.write("el valor de click es:", click)
 
 if click==True:
+   st.write("perrito")
     st.image("R.jpg")
-    st.write("perrito")
+    
 
 #Las st.button pusieron botones
 #st.button("dale click")
