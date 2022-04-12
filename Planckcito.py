@@ -40,3 +40,8 @@ with st.sidebar:
 #para poner titulos bonitos
 #st.markdown(" #titulo ")
 #st.markdown("*esta es una viñeta*")
+
+st.write(pd.DataFrame({
+    'Color de monster':["Azul","Verde","Blanco","De Jugo"],
+    'Calificacion':[5,10,0,-10],
+}))
