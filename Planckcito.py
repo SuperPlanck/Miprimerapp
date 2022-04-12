@@ -45,3 +45,5 @@ st.write(pd.DataFrame({
     'Color de monster':["Azul","Verde","Blanco","De Jugo"],
     'Calificacion':[5,10,0,-10],
 }))
+
+#texto
